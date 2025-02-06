@@ -18,6 +18,7 @@ export const metadata: Metadata = {
     url: "https://isyraf.vercel.app",
     siteName: "Isyraf's website",
     // images: "/logo.svg",
+    
   },
   twitter: {
     title: "Ahmad Isyraf",
@@ -36,7 +37,7 @@ export default function RootLayout({
       <head>
         <meta
           name="google-site-verification"
-          content="zvvbvRNB1_LsgdsGnyxWspVip9kBYzeGhaERkQbxs-0"
+          content={process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION}
         />
       </head>
       <body className={`${poppins.variable}`}>{children}</body>
