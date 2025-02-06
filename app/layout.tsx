@@ -33,6 +33,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <meta
+          name="google-site-verification"
+          content="zvvbvRNB1_LsgdsGnyxWspVip9kBYzeGhaERkQbxs-0"
+        />
+      </head>
       <body className={`${poppins.variable}`}>{children}</body>
     </html>
   );
