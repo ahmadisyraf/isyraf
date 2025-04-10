@@ -5,7 +5,7 @@ const achievements = [
   // "Partnership with Trinovik Labs Sdn. Bhd.",
   "Gold Award Undergraduate Project",
   "Dean List Semester I Academic Session 2022/2023",
-  "Pengarah Terbaik Drama Komsas Negeri Pahang",
+  // "Pengarah Terbaik Drama Komsas Negeri Pahang",
 ];
 
 export default function Achievement() {

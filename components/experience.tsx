@@ -48,7 +48,7 @@ export default function Experience() {
                 {format(new Date(d.startDate), "MMMM yyyy")} -{" "}
                 {format(new Date(d.endDate), "MMMM yyyy")}
               </p>
-              <p className="text-base py-1 text-muted-foreground">
+              <p className="text-base py-1 text-muted-foreground leading-normal">
                 {d.description}
               </p>
             </div>

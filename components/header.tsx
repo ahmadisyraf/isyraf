@@ -26,7 +26,7 @@ export default function Header() {
               <span>👋</span>
             </BlurFade>
           </h1>
-          <h5 className="text-xl text-muted-foreground leading-7 font-normal">
+          <h5 className="text-xl text-muted-foreground leading-normal font-normal">
             I&apos;m a passionate Software Engineer based in Pahang, Malaysia.
             Currently, I&apos;m focused on building{" "}
             <TextLoop interval={2}>
