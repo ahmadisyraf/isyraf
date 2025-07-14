@@ -5,11 +5,19 @@ const experiences = [
   {
     imageURL: "/deloitte.jpeg",
     position:
+      "Technology Analyst @ Deloitte Consulting SEA - Innovation & Cloud Development Centre (ICDC)",
+    startDate: "2024-06-9",
+    endDate: "Present",
+    description: "Developed General Insurance (GI) system for Insurance Company",
+  },
+  {
+    imageURL: "/deloitte.jpeg",
+    position:
       "Technology Intern @ Deloitte Consulting SEA - Innovation & Cloud Development Centre (ICDC)",
     startDate: "2024-08-01",
     endDate: "2025-01-31",
     description:
-      "Developed a proof of concept (POC) task management system to enhance team collaboration and project efficiency.",
+      "Developed a task management system to enhance team collaboration and project efficiency.",
   },
   {
     imageURL: "/crib.jpg",
@@ -32,9 +40,7 @@ const experiences = [
 export default function Experience() {
   return (
     <div className="space-y-10">
-      <h2 className="text-3xl font-semibold leading-10">
-        My experience in the industry
-      </h2>
+      <h2 className="text-3xl font-semibold leading-10">My experiences</h2>
 
       <div className="space-y-5">
         {experiences &&
@@ -46,7 +52,9 @@ export default function Experience() {
               <p className="text-lg font-semibold">{d.position}</p>
               <p className="text-sm text-muted-foreground font-medium">
                 {format(new Date(d.startDate), "MMMM yyyy")} -{" "}
-                {format(new Date(d.endDate), "MMMM yyyy")}
+                {d.endDate == "Present"
+                  ? d.endDate
+                  : format(new Date(d.endDate), "MMMM yyyy")}
               </p>
               <p className="text-base py-1 text-muted-foreground leading-normal">
                 {d.description}
