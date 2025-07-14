@@ -6,7 +6,7 @@ const experiences = [
     imageURL: "/deloitte.jpeg",
     position:
       "Technology Analyst @ Deloitte Consulting SEA - Innovation & Cloud Development Centre (ICDC)",
-    startDate: "2024-06-9",
+    startDate: "2025-06-9",
     endDate: "Present",
     description: "Developed General Insurance (GI) system for Insurance Company",
   },
