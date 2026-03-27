@@ -9,9 +9,9 @@ export default function Home() {
     <div className="lg:px-80 md:px-40 px-10 space-y-32 py-32">
       <Header />
       <Experience />
-      {/* <Tools />
-      <Achievement />
-      <Contact /> */}
+      {/* <Tools /> */}
+      {/* <Achievement /> */}
+      {/* <Contact /> */}
     </div>
   );
 }

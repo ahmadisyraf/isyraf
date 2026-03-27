@@ -27,7 +27,7 @@ export default function Header() {
             </BlurFade>
           </h1>
           <h5 className="text-xl text-muted-foreground leading-normal font-normal">
-            I&apos;m a passionate Software Engineer based in Pahang, Malaysia.
+            I&apos;m a passionate Software Engineer based in Pahang and Kuala Lumpur, Malaysia.
             Currently, I&apos;m focused on building{" "}
             <TextLoop interval={2}>
               <span>web application</span>

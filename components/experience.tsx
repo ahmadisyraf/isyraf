@@ -8,7 +8,7 @@ const experiences = [
       "Technology Analyst @ Deloitte Consulting SEA - Innovation & Cloud Development Centre (ICDC)",
     startDate: "2025-06-9",
     endDate: "Present",
-    description: "Developed General Insurance (GI) system for Insurance Company",
+    description: "Involved in the digital transformation of an overseas insurance company, focusing on the policy admin module for general insurance.",
   },
   {
     imageURL: "/deloitte.jpeg",
