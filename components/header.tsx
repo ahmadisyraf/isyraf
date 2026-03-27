@@ -43,14 +43,6 @@ export default function Header() {
             Contact me
             <ChevronRight size={18} className="ml-2" />
           </Button>
-          <Button
-            size={"lg"}
-            onClick={() => router.push("mailto:isyraffaishal@yahoo.com")}
-            variant={"secondary"}
-            className="border-[1.5px] border-black bg-white text-black"
-          >
-            Go to my blog
-          </Button>
         </div>
       </div>
       <GridPattern
